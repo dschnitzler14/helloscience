@@ -1,0 +1,23 @@
+title:              Hello Science
+email:              dschnitzler@outlook.com
+description:        Science Blog
+author:             Danny Schnitzler
+baseurl:            ""
+url:                "https://helloscience.co.uk"
+
+# Social Profiles
+twitter_username: dschnitzler14
+github_username:
+facebook_username:
+instagram_username: dschnitzler14
+linkedin_username: 
+
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
